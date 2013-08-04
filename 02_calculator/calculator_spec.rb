@@ -92,6 +92,7 @@ end
 describe "#power" do
   it "raises one number to the power of another number" do
     power(2,3).should == 8
+    power(3,2).should == 9
   end
 end
 
